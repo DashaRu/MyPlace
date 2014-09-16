@@ -2,7 +2,7 @@ puts 'привет '.+ 'мир'
 puts (10.*9).+ 9
 iCantBelieveIMadeAVariableNameThisLongJustToPointToA3 = 3
 puts iCantBelieveIMadeAVariableNameThisLongJustToPointToA3
-puts '??? doesn\'t work - "self.puts iCantBelieveIMadeAVariableNameThisLongJustToPointToA3"'
+# self.puts iCantBelieveIMadeAVariableNameThisLongJustToPointToA3
 
 puts ''
 
@@ -57,7 +57,7 @@ str = '--> текст <--'
 puts str.ljust lineWidth
 puts str.center lineWidth
 puts str.rjust lineWidth
-puts '??? doesn\'t work - "puts str.ljust (lineWidth/2) + str.rjust (lineWidth/2)"'
+# puts str.ljust (lineWidth/2) + str.rjust (lineWidth/2)
 
 puts ''
 
